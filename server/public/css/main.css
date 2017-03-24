@@ -3,20 +3,39 @@
   justify-content: center;
   text-align: center; }
 
-.homepage-buttons {
-  justify-content: center;
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-.logoDiv > img {
+.overall {
+  display: flex;
+}
+
+.navBardemoBasicUsage {
+  flex: 0 1 95%;
+}
+
+#logo {
+  width: 95%;
+  height:250px;
+  /*max-width: 98%;*/
+}
+
+img {
   max-width: 98%;
 }
+
+.homepage-buttons {
+  justify-content: center; }
 
 .center-card {
   background: #FFFFFF;
   border-radius: 2px;
   margin: auto;
   height: 100%;
-  width: 900px; }
+  width: 95%; }
 
 .card-1 {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
@@ -45,7 +64,8 @@
 
 .navBardemoBasicUsage md-content .ext-content {
   padding-bottom: 40px;
-  margin: 20px; }
+  /*margin: 20px;*/
+ }
 
 .notification {
   color: #DB5659;
@@ -164,7 +184,8 @@
 .aligner {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 100%; }
 
 .carousel {
   max-width: 50%; }
@@ -213,22 +234,3 @@ a {
 .about-center {
   padding-left: 25%;
   padding-right: 25%; }
-
-@media screen and (max-width: 479px) {
-  body {
-    max-width: 100%;
-  }
-  .navBardemoBasicUsage {
-    max-width: 98%;
-  }
-  .center-card {
-    max-width: 98%;
-  }
-  .logoDiv > img {
-    max-width: 300px;
-    height: 170px;
-  }
-  .aligner {
-    max-width: 100%;
-  }
-}
