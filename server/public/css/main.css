@@ -65,6 +65,10 @@ img {
   color: #DB5659;
   font-weight: bold; }
 
+.md-button._md-nav-button {
+  padding-right: 2px;
+  padding-left: 2px; }
+
 .checkboxdemoBasicUsage div.flex-xs {
   min-height: 40px; }
 
@@ -178,7 +182,8 @@ img {
 .aligner {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 30px; }
 
 .carousel {
   max-width: 50%; }
