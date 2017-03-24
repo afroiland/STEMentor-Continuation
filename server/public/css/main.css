@@ -3,32 +3,27 @@
   justify-content: center;
   text-align: center; }
 
+.homepage-buttons {
+  justify-content: center; }
+
 body {
   display: flex;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .overall {
-  display: flex;
-}
+  display: flex; }
 
 .navBardemoBasicUsage {
-  flex: 0 1 95%;
-}
+  flex: 0 1 95%; }
 
 #logo {
   width: 95%;
-  height:250px;
-  /*max-width: 98%;*/
-}
+  height: 100%;
+  /*max-width: 98%;*/ }
 
 img {
-  max-width: 98%;
-}
-
-.homepage-buttons {
-  justify-content: center; }
+  max-width: 98%; }
 
 .center-card {
   background: #FFFFFF;
@@ -64,8 +59,7 @@ img {
 
 .navBardemoBasicUsage md-content .ext-content {
   padding-bottom: 40px;
-  /*margin: 20px;*/
- }
+  margin: 20px; }
 
 .notification {
   color: #DB5659;
@@ -184,8 +178,7 @@ img {
 .aligner {
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 100%; }
+  justify-content: center; }
 
 .carousel {
   max-width: 50%; }
