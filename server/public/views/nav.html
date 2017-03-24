@@ -5,8 +5,8 @@
 <div ng-controller="NavController as nav" ng-cloak="" class="navBardemoBasicUsage" ng-app="stementor" flex>
   <md-content class="md-padding">
     <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
-      <div layout="row" layout-xs="column">
-        <div layout="row">
+      <div layout="row" >
+        <!-- <div layout="row"> -->
           <md-nav-item md-nav-href="#home" name="home">
             <!-- <img src="./assets/images/logo/STEMentorLogo.png" style="height:50px;width:150px"> -->
             Home
@@ -17,9 +17,10 @@
           <md-nav-item md-nav-href="#about" name="about">
             About
           </md-nav-item>
-        </div>
+        <!-- </div> -->
       <span flex></span>
-      <div layout="row">
+      <!-- <div layout="row">
+        <span flex></span> -->
         <md-nav-item ng-click="nav.setMentorId()" ng-if="nav.userStatus.isLoggedIn && nav.userStatus.userType == 'mentor'" md-nav-href="#profile" name="profile">
           Your Profile
         </md-nav-item>
@@ -32,7 +33,7 @@
         <md-button ng-if="!nav.userStatus.isLoggedIn" ng-click="nav.logInModal($event)">
           Log In / Sign Up
         </md-button>
-      </div>
+      <!-- </div> -->
     </div>
     </md-nav-bar>
   </md-content>
