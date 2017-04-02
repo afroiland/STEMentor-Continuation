@@ -10,6 +10,30 @@
   justify-content: center;
 }
 
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.overall {
+  display: flex;
+}
+
+.navBardemoBasicUsage {
+  flex: 0 1 95%;
+}
+
+#logo {
+  width: 95%;
+  height: 100%;
+  /*max-width: 98%;*/
+}
+
+img {
+  max-width: 98%;
+}
+
 //*****************************//
 
 .center-card {
@@ -17,7 +41,7 @@
   border-radius: 2px;
   margin: auto;
   height: 100%;
-  width: 900px;
+  width: 95%;
 }
 
 .card-1 {

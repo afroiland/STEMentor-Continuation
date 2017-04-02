@@ -6,12 +6,31 @@
 .homepage-buttons {
   justify-content: center; }
 
+body {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+.overall {
+  display: flex; }
+
+.navBardemoBasicUsage {
+  flex: 0 1 95%; }
+
+#logo {
+  width: 95%;
+  height: 100%;
+  /*max-width: 98%;*/ }
+
+img {
+  max-width: 98%; }
+
 .center-card {
   background: #FFFFFF;
   border-radius: 2px;
   margin: auto;
   height: 100%;
-  width: 900px; }
+  width: 95%; }
 
 .card-1 {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
@@ -45,6 +64,11 @@
 .notification {
   color: #DB5659;
   font-weight: bold; }
+
+.md-button._md-nav-button {
+  min-width: 0px;
+  padding-right: 2px;
+  padding-left: 2px; }
 
 .checkboxdemoBasicUsage div.flex-xs {
   min-height: 40px; }
@@ -159,7 +183,8 @@
 .aligner {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 30px; }
 
 .carousel {
   max-width: 50%; }

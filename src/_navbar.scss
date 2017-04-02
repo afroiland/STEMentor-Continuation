@@ -11,4 +11,20 @@
   font-weight: bold;
 }
 
+// .navFlex {
+//   display: flex;
+// }
+
+.md-button._md-nav-button {
+  min-width: 0px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+@media screen and (max-width: 479px) {
+  .md-button._md-nav-button {
+    // background-color: magenta;
+  }
+}
+
 //----------------------------------------------------------------------------//
