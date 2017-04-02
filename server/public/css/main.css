@@ -66,6 +66,7 @@ img {
   font-weight: bold; }
 
 .md-button._md-nav-button {
+  min-width: 0px;
   padding-right: 2px;
   padding-left: 2px; }
 
